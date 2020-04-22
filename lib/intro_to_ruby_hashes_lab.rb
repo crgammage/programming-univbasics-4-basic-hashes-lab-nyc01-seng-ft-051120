@@ -3,9 +3,8 @@ def new_hash
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
-  new_hash[:newkey] = 1
-  return new_hash
+  new_hash = [:firstkey => "value1"]
+  new_hash[:firstkey]
 end
 
 def pioneer
